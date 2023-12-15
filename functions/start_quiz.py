@@ -1,12 +1,14 @@
 import random
 import time
 
-
+# Bring in the function modules
 from functions.display_question import display_question
 from functions.check_answer import check_answer
 from functions.get_user_input import get_user_input
 
-from quizs.quiz_1 import questions
+# Bring in the quiz
+# from quizs.quiz_1 import questions
+from quizs.quiz_2_lists import questions
 
 def start_quiz():
     """ Start the quiz game """
